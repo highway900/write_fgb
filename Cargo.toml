@@ -1,0 +1,10 @@
+[package]
+name = "fgb_writer"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+geo = "0.18.0"
+geozero = "0.7.7"
+geo-types = "0.7.2"
+flatgeobuf = { git = "https://github.com/flatgeobuf/flatgeobuf", branch = "master" } 
